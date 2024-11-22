@@ -7,7 +7,7 @@ export default function page() {
     <div className="bg-gray-100 flex justify-center items-center h-screen">
       <div className="w-1/2 h-screen hidden lg:block">
         <Image
-          src="https://res.cloudinary.com/deo6m0eyk/image/upload/f_auto,q_auto/afwjup30tnrgrjndqwoh"
+          src="https://images.pexels.com/photos/12470921/pexels-photo-12470921.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           alt="Placeholder Image"
           width={800}
           height={800}
