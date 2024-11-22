@@ -7,7 +7,7 @@ export default function page() {
     <div className="bg-gray-100 flex justify-center items-center h-screen">
       <div className="w-1/2 h-screen hidden lg:block">
         <Image
-          src="/images/login.jpg"
+          src="images/login.jpg"
           alt="Placeholder Image"
           width={800}
           height={800}
