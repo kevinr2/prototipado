@@ -17,7 +17,7 @@ export default function ciudad() {
         <div className="w-80 h-80 mt-8 ">
 
            <div className="product">
-                    <Image src="/img/cali.jpg" alt="Product Image"  width={200} height={200}/>
+                    <Image src="img/cali.jpg" alt="Product Image"  width={200} height={200}/>
                     <h2>CALI</h2>
                     <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
