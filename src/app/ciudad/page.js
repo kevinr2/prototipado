@@ -3,6 +3,12 @@ import { NavbarDash } from "@/components/NavbarDash";
 import Image from "next/image";
 
 
+export const metadata = {
+    title: "Cali | Turismo",
+    description: "esta esta pagina esta echa para la seguridad del turista de colombia dando informacion correspodiente",
+  };
+
+
 export default function ciudad() {
   return (
     <>
