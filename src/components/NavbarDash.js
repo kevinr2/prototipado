@@ -3,14 +3,16 @@ import Link from "next/link";
 import { FaRegUserCircle } from "react-icons/fa";
 import { DropDown } from "./dropDown/DropDown";
 import { useState } from "react";
+import { ModalEmer } from "./ModalEmer";
 
 export const NavbarDash = () => {
   const [menu, setMenu] = useState(false);
+  const [modal, setModal] = useState(false)
   return (
     <div className="shadow bg-white">
       <div className="h-16 mx-10 px-5 flex items-center justify-between">
         <Link
-          href="/"
+          href="/dashboard"
           className="text-xl hover:text-cyan-500 text-sky-950 font-bold transition-colors cursor-pointer"
         >
           Colombia secure
@@ -21,9 +23,10 @@ export const NavbarDash = () => {
             <FaRegUserCircle style={{ fontSize: 25 }} />
           </div>
 
-          {menu=== true?<DropDown />:""} 
+          {menu=== true?<DropDown setModal={setModal} modal={modal} />:""} 
         </div>
       </div>
+       {modal=== true ?<ModalEmer modal={modal} setModal={setModal} />:""}
     </div>
   );
 };
