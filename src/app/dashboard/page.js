@@ -9,7 +9,7 @@ export default function Dashboard() {
       <NavbarDash />
       <div className="w-[100%] h-[350px] flex justify-center items-center mt-1">
         <Image
-          src="images/imagen_id_4463.jpg"
+          src="https://res.cloudinary.com/deo6m0eyk/image/upload/f_auto,q_auto/g3agrl6xgppbmvbvskhy"
           className="w-[100%] h-[350px] object-fill"
           width={1000}
           height={1000}
