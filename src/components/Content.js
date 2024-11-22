@@ -15,10 +15,10 @@ export const Content = () => {
       </div>
       <div className="hero-images">
         <div className="main-image">
-          <Image src="/colombia1.jpg" width={500} height={500} alt="Playa" />
+          <Image src="/images/colombia1.jpg" width={500} height={500} alt="Playa" />
         </div>
         <div className="circle-image">
-          <Image src="/images.jfif" width={500} height={500} alt="Bandera de Colombia" />
+          <Image src="/images/images.jfif" width={500} height={500} alt="Bandera de Colombia" />
         </div>
       </div>
     </div>

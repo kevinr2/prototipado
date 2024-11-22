@@ -7,7 +7,7 @@ export default function register() {
      <div className="bg-gray-100 flex justify-center items-center h-[100vh] overflow-hidden">
 
     <div className="w-1/2 h-screen hidden lg:block">
-      <Image src="/login.jpg" alt="Placeholder Image" width={800} height={800} className="object-cover w-full h-full" />
+      <Image src="/images/login.jpg" alt="Placeholder Image" width={800} height={800} className="object-cover w-full h-full" />
     </div>
     
     <div className="lg:p-36 md:p-52 sm:20 p-8  w-full lg:w-1/2">
